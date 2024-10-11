@@ -75,4 +75,8 @@ body {
   }
   .menu-text {
     color: gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
   }
