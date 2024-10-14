@@ -83,3 +83,12 @@ body {
     font-weight: 300;
     font-style: normal;
   }
+  hr {
+    height: 40px;
+    color: gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    
+  }
