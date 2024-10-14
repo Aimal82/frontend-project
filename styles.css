@@ -126,3 +126,8 @@ body {
   border-top: 2px solid rgba(143, 134, 134, 0.37);  
   margin: 0;
 }
+.location-icon {
+  position: relative;
+  bottom: 464px;
+  left: 25px;
+}
