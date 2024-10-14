@@ -83,12 +83,30 @@ body {
     font-weight: 300;
     font-style: normal;
   }
-  hr {
-    height: 40px;
-    color: gray;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50px;
-    
-  }
+  .stacked-line {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    border: none;
+    border-top: 2px solid rgba(143, 134, 134, 0.37); 
+    margin: 0;
+}
+.stacked-line2 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  border: none;
+  border-top: 2px solid rgba(143, 134, 134, 0.37); 
+  margin: 0;
+}
+.stacked-line3 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  width: 100%;
+  border: none;
+  border-top: 2px solid rgba(143, 134, 134, 0.37); 
+  margin: 0;
+}
