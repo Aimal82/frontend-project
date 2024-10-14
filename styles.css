@@ -73,15 +73,30 @@ body {
     border-bottom-left-radius: 3px ;
     border-bottom-right-radius: 3px ;  
   }
-  .menu-text {
-    color: gray;
+  .menu-text-foodname {
+    color: rgb(184, 184, 184);
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     height: 280px;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
+    position: relative;
+    left: 15px;
+  }
+  .menu-text-foodprice {
+    color: rgb(184, 184, 184);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    left: 340px;
+    bottom: 280px;
   }
   .stacked-line {
     position: absolute;
