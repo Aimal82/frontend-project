@@ -131,3 +131,18 @@ body {
   bottom: 464px;
   left: 25px;
 }
+.graybox-center {
+  position: relative;
+  bottom: 170px;
+  left: 250px;
+  height: 75px;
+  width: 110px;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+.icon-graybox-center {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  
+
+}
