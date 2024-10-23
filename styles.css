@@ -149,7 +149,7 @@ body {
 .graybox-left1 {
   position: relative;
   bottom: 170px;
-  left: 305px;
+  left: 325px;
   height: 60px;
   width: 75px;
   background-color: rgba(0, 0, 0, 0.596);
@@ -158,12 +158,12 @@ body {
 .icon-left1 {
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 25px;
 }
 .graybox-left2 {
   position: relative;
   bottom: 170px;
-  left: 194px;
+  left: 175px;
   height: 60px;
   width: 75px;
   background-color: rgba(0, 0, 0, 0.596);
@@ -172,6 +172,6 @@ body {
 .icon-left2 {
   position: relative;
   top: 20px;
-  left: 15px;
+  left: 25px;
 }
 
