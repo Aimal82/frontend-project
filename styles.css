@@ -97,6 +97,7 @@ body {
     position: relative;
     left: 340px;
     bottom: 280px;
+    transition: black 0.5s ease;
   }
   .stacked-line {
     position: absolute;
