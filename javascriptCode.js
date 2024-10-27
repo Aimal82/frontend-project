@@ -1,11 +1,15 @@
-const textElement = document.getElementById('color-change');
+const container = document.getElementById('color-change');
 
-// Change color on mouseover
-textElement.addEventListener('mouseover', () => {
-    textElement.style.color = 'black'; 
-});
+document.addEventListener('DOMContentLoaded', () => {
 
-// Revert color on mouseout
-textElement.addEventListener('mouseout', () => {
-    textElement.style.color = 'rgb(184, 184, 184)'; 
+    container.addEventListener('mouseover', (event) => {
+        if (event.target.tagName === 'SPAN') { 
+            event.target.style.color = 'black'; 
+        }
+    });
+    container.addEventListener('mouseout', (event) => {
+        if (event.target.tagName === 'SPAN') { 
+            event.target.style.color = 'rgb(184, 184, 184)';
+        }
+    });
 });
