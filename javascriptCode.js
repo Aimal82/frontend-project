@@ -1,11 +1,11 @@
-const textElements = document.querySelectorAll('.menu-text-foodprice');
+const textElement = document.getElementById('color-change');
 
-textElements.forEach((element) => {
-    element.addEventListener('mouseover', () => {
-        element.style.color = 'black'; 
-    });
+// Change color on mouseover
+textElement.addEventListener('mouseover', () => {
+    textElement.style.color = 'black'; 
+});
 
-    element.addEventListener('mouseout', () => {
-        element.style.color = 'rgb(184, 184, 184)'; 
-    });
+// Revert color on mouseout
+textElement.addEventListener('mouseout', () => {
+    textElement.style.color = 'rgb(184, 184, 184)'; 
 });

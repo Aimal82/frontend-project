@@ -97,8 +97,16 @@ body {
     position: relative;
     left: 340px;
     bottom: 280px;
-    transition: black 0.5s ease;
+
   }
+  .color-change {
+    color: rgb(184, 184, 184);
+    transition: color 0.3s ease; 
+}
+
+.color-change:hover {
+    color: black; 
+}
   .stacked-line {
     position: absolute;
     top: 70px;
