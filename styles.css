@@ -97,11 +97,12 @@ body {
     position: relative;
     left: 340px;
     bottom: 280px;
+    transform-origin: center; 
 
   }
   .color-change {
     color: rgb(184, 184, 184);
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 .color-change:hover {
