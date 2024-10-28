@@ -8,8 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     container.addEventListener('mouseout', (event) => {
-        if (event.target.tagName === 'SPAN') {
+        if (event.target.tagName === 'SPAN') { 
             event.target.style.color = 'rgb(184, 184, 184)'; 
         }
     });
 });
+
+
