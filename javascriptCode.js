@@ -3,15 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     container.addEventListener('mouseover', (event) => {
         if (event.target.tagName === 'SPAN') {
-            event.target.style.color = 'black'; 
+            event.target.classList.add('hovered');
         }
     });
 
     container.addEventListener('mouseout', (event) => {
-        if (event.target.tagName === 'SPAN') { 
-            event.target.style.color = 'rgb(184, 184, 184)'; 
+        if (event.target.tagName === 'SPAN') {
+            event.target.classList.remove('hovered');
         }
     });
 });
-
-

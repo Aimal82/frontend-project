@@ -87,7 +87,7 @@ body {
   }
   .menu-text-foodprice {
     color: rgb(184, 184, 184);
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 280px;
@@ -99,18 +99,20 @@ body {
     left: 340px;
     bottom: 280px;
     transform-origin: center; 
-  }
-  .color-change {
+}
+
+.color-change {
     color: rgb(184, 184, 184);
     transition: color 0.3s ease;
     font-size: 18px;
     transition: font-size 0.3s ease;
-    /* rn all the text in span is getting affected */
-  }
-    .color-change:hover {
-      font-size: 23px;
-      color: black;
-    }
+}
+
+.color-change span.hovered {
+    font-size: 22px;
+    color: black;
+}
+
   .stacked-line {
     position: absolute;
     top: 70px;
