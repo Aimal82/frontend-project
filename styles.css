@@ -12,6 +12,38 @@ body {
     border-radius: 6px;  
     box-shadow: 0px 10px 10px rgba(19, 17, 17, 0.404);
 } 
+.text1 { 
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto; 
+  font-weight: 410; 
+  font-style: normal;
+  font-size: 200%;
+  position: relative;
+  z-index: 3;
+  left: 25px;
+  bottom: 400px;
+  color: white;
+}
+.text2 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto; 
+  font-weight: 410; 
+  font-style: normal; 
+  font-size: 95%;
+  position: relative;
+  z-index: 2;
+  left: 45px;
+  bottom: 430px;
+  color: rgb(255, 255, 255);
+}
+.black-tint {
+  position: absolute;
+  z-index: 1;
+  top: 298px;
+  height: 210px; 
+  width: 385px; 
+  background-color: rgba(0, 0, 0, 0.174);
+}
 .image { 
     object-fit: contain; 
     width: 100%; 
@@ -29,28 +61,6 @@ body {
   font-style: normal; 
 } 
  
-.text1 { 
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto; 
-    font-weight: 410; 
-    font-style: normal;
-    font-size: 200%;
-    position: relative;
-    left: 25px;
-    bottom: 400px;
-    color: rgb(255, 255, 255);
-}
-.text2 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto; 
-    font-weight: 410; 
-    font-style: normal; 
-    font-size: 95%;
-    position: relative;
-    left: 45px;
-    bottom: 430px;
-    color: rgb(255, 255, 255);
-}
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -142,6 +152,7 @@ body {
 }
 .location-icon {
   position: relative;
+  z-index: 4;
   bottom: 464px;
   left: 25px;
 }
