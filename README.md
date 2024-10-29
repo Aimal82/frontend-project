@@ -4,12 +4,14 @@ Midterm Project using Design and Assets
 ## Description
 Replicate the design and create a webpage
 
-## Before
-![Before]![before_img](https://github.com/user-attachments/assets/76dc93e5-9fca-4cfc-b41b-6f75e387bcbc)
 
+## Before
+![Before]
+![Screenshot 2024-10-29 115107](https://github.com/user-attachments/assets/8f8f9a32-3334-4323-9584-8b7df9982e16)
 
 ## After
-![After]![after_img](https://github.com/user-attachments/assets/506221e7-3343-4227-97fe-62da0cab415e)
+![After]
+![Screenshot 2024-10-29 1142361000](https://github.com/user-attachments/assets/8e249c39-2fd2-4996-a1df-c868e2f70d4a)
 
 
 ## Commit History
@@ -23,4 +25,4 @@ Replicate the design and create a webpage
 - Commit 8: minor changes
 - commit 9: added z-index for layering
 - Commit 10: last version
-(p.s for specific commit please go to commit history)
+(p.s for specific commit, please go to commit history & if any error occurs http://127.0.0.1:5500/ use this link instead.)
