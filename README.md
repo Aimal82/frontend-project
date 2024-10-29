@@ -25,4 +25,4 @@ Replicate the design and create a webpage
 - Commit 8: minor changes
 - commit 9: added z-index for layering
 - Commit 10: last version
-(p.s for specific commit, please go to commit history & if any error occurs http://127.0.0.1:5500/ use this link instead.)
+(p.s for specific commit, please go to commit history)
